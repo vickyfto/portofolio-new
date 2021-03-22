@@ -1,16 +1,14 @@
 <template>
   <div class="home main-content">
     <div class="left-content">
-      <h1>8 YEARS OF DESIGN</h1>
+      <h1>Front-end developer</h1>
 
-      <p class="subtxt">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-      <p class="subtxt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, impedit.</p>
+      <button style="margin-top:2em;">
+        <router-link to="/portfolio/one">PORTOFOLIO PROJECT</router-link>
+      </button>
     </div>
 
     <div class="right-content img1">
-      <button>
-        <router-link to="/portfolio/one">Browse Work</router-link>
-      </button>
     </div>
   </div>
 </template>
@@ -23,6 +21,9 @@ export default {
 
 <style scoped>
 .img1 {
-  background: url("../assets/home.jpg");
+  background: url("../assets/portofolio.svg") no-repeat center;
+  position:relative;
+  height:100vh;
+  width: 100%;
 }
 </style>

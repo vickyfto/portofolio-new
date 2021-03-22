@@ -3,7 +3,7 @@
     <div class="container">
       <div class="inner">
         <nav>
-          <router-link to="/" id="logo">Danielle Moss</router-link>
+          <router-link to="/" id="logo">Vicky Fitrio</router-link>
 
           <ul>
             <li>
@@ -11,6 +11,12 @@
             </li>
             <li>
               <router-link to="/about">About</router-link>
+            </li>
+            <li>
+              <router-link to="/skills">Skills</router-link>
+            </li>
+            <li>
+              <router-link to="/experience">experience</router-link>
             </li>
           </ul>
         </nav>

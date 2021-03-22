@@ -2,6 +2,11 @@
 
 $primary: #017faf;
 
+* {
+  letter-spacing: 1px;
+  // border: 1px solid black;
+}
+
 body,
 html {
   margin: 0;
@@ -23,6 +28,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 p {
   line-height: 25px;
 }
@@ -30,7 +39,7 @@ p {
 #app {
   grid-area: iface;
   width: 90%;
-  max-with: 1500px;
+  max-width: 1500px;
   height: 90%;
 
   .container {
@@ -100,7 +109,7 @@ p {
   }
 
   .right-content {
-    background: #d6d6d6;
+    // background: #d6d6d6;
     display: grid;
     grid-template-columns: auto;
     justify-items: center;
@@ -128,7 +137,7 @@ p {
 button {
   background: none;
   padding: 15px 20px;
-  font-size: 1.7em;
+  font-size: 1.5em;
   outline: 0;
   border: 1px solid $primary;
   color: $primary;
