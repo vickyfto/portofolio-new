@@ -5,9 +5,11 @@
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit,
         laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, blanditiis libero optio unde doloribus hic. Voluptate porro eligendi explicabo soluta cumque qui. Odio voluptatum fugiat sint iste, possimus neque. Tempore, excepturi est sequi ipsum culpa quasi velit suscipit temporibus perferendis voluptatem, 
       </p>
-      <button style="color:white; border: 1px solid white; margin-top:3em;">
-        <router-link style="color:white !important;" to="/portfolio/one">PORTOFOLIO PROJECT</router-link>
-      </button>
+        <router-link style="color:white !important; color:white; margin-top:3em;" to="/portfolio/one">
+          <button class="text-white">
+            PORTOFOLIO PROJECT
+          </button>
+        </router-link>
     </div>
 
     <div class="right-content">
