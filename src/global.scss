@@ -28,8 +28,8 @@ a {
   text-decoration: none;
 }
 
-a:hover, button:hover {
-  text-decoration: none !important;
+a:hover {
+  text-decoration: none;
 }
 
 p {
@@ -139,7 +139,7 @@ button {
   padding: 15px 20px;
   font-size: 1.5em;
   outline: 0;
-  border: 1px solid white;
+  border: 1px solid $primary;
   color: $primary;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
