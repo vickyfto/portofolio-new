@@ -15,42 +15,42 @@ Vue.use(Router);
 export default new Router({
   routes: [
     {
-      path: "/",
+      path: "/portofolio-new",
       name: "home",
       component: Home
     },
     {
-      path: "/about",
+      path: "/portofolio-new/about",
       name: "about",
       component: About
     },
     {
-      path: "/skills",
+      path: "/portofolio-new/skills",
       name: "skills",
       component: Skills
     },
     {
-      path: "/experience",
+      path: "/portofolio-new/experience",
       name: "experience",
       component: Experience
     },
     {
-      path: "/portfolio/one",
+      path: "portofolio-new//portfolio/one",
       name: "one",
       component: One
     },
     {
-      path: "/portfolio/two",
+      path: "/portofolio-new/portfolio/two",
       name: "two",
       component: Two
     },
     {
-      path: "/portfolio/three",
+      path: "/portofolio-new/portfolio/three",
       name: "three",
       component: Three
     },
     {
-      path: "/portfolio/four",
+      path: "/portofolio-new/portfolio/four",
       name: "four",
       component: Four
     }

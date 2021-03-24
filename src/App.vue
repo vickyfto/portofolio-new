@@ -7,22 +7,24 @@
 
           <ul>
             <li>
-              <router-link to="/">Home</router-link>
+              <router-link to="/portofolio-new">Home</router-link>
             </li>
             <li>
-              <router-link to="/about">About</router-link>
+              <router-link to="/portofolio-new/about">About</router-link>
             </li>
             <li>
-              <router-link to="/skills">Skills</router-link>
+              <router-link to="/portofolio-new/skills">Skills</router-link>
             </li>
             <li>
-              <router-link to="/experience">experience</router-link>
+              <router-link to="/portofolio-new/experience"
+                >experience</router-link
+              >
             </li>
           </ul>
         </nav>
 
         <transition name="fade" mode="out-in">
-          <router-view/>
+          <router-view />
         </transition>
       </div>
     </div>
