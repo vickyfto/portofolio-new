@@ -6,10 +6,12 @@
         Tech Enthusiast, Work holic, High curiosity
         and has great courage to try.
       </p>
-
-      <button style="color:white; border: 1px solid white; margin-top:3em;">
-        <router-link style="color:white !important;" to="/portfolio/one">PORTOFOLIO PROJECT</router-link>
-      </button>
+      <div style="margin-top:3em;"></div>
+      <router-link style="color:white !important; color:white;" to="/portfolio/one">
+          <button class="text-white">
+            PORTOFOLIO PROJECT
+          </button>
+        </router-link>
     </div>
     <div class="right-content">
       <p>
