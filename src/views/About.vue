@@ -1,17 +1,18 @@
 <template>
   <div class="about main-content">
     <div class="left-content">
-      <h1 style="color:white;">ABOUT ME</h1>
-      <p class="subtxt" style="color:white;">
-        Tech Enthusiast, Work holic, High curiosity
-        and has great courage to try.
+      <h1 style="color: white">ABOUT MEEE</h1>
+      <p class="subtxt" style="color: white">
+        Tech Enthusiast, Work holic, High curiosity and has great courage to
+        try.
       </p>
-      <div style="margin-top:3em;"></div>
-      <router-link style="color:white !important; color:white;" to="/portfolio/one">
-          <button class="text-white">
-            PORTOFOLIO PROJECT
-          </button>
-        </router-link>
+      <div style="margin-top: 3em"></div>
+      <router-link
+        style="color: white !important; color: white"
+        to="/portfolio/one"
+      >
+        <button class="text-white">PORTOFOLIO PROJECT</button>
+      </router-link>
     </div>
     <div class="right-content">
       <p>
@@ -24,24 +25,27 @@
         be amazed at what i've been through so far
       </p>
       <div>
-        <div style="margin-top:5em; font-size:19px;"><b>Reach me at :</b></div>
+        <div style="margin-top: 5em; font-size: 19px"><b>Reach me at :</b></div>
         <ul class="list-group list-group-horizontal" style="font-size: 30px">
-            <li class="list-group-item rmv-border">
-              <a href="mailto:vickyfitrio19@gmail.com" target="_blank">
-                <img src="../assets/gmail.png" alt="gmail" />
-              </a>
-            </li>
-            <li class="list-group-item rmv-border">
-              <a href="https://msng.link/o/?vickyfto=tg" target="_blank">
-                <img src="../assets/telegram.png" alt="telegram" />
-              </a>
-            </li>
-            <li class="list-group-item rmv-border">
-              <a href="https://api.whatsapp.com/send?phone=6287891505070&text=Assalamualaikum.%20Hi%2C%20Vicky" target="_blank">
-                <img src="../assets/whatsapp.png" alt="whatsapp" />
-              </a>
-            </li>
-          </ul>
+          <li class="list-group-item rmv-border">
+            <a href="mailto:vickyfitrio19@gmail.com" target="_blank">
+              <img src="../assets/gmail.png" alt="gmail" />
+            </a>
+          </li>
+          <li class="list-group-item rmv-border">
+            <a href="https://msng.link/o/?vickyfto=tg" target="_blank">
+              <img src="../assets/telegram.png" alt="telegram" />
+            </a>
+          </li>
+          <li class="list-group-item rmv-border">
+            <a
+              href="https://api.whatsapp.com/send?phone=6287891505070&text=Assalamualaikum.%20Hi%2C%20Vicky"
+              target="_blank"
+            >
+              <img src="../assets/whatsapp.png" alt="whatsapp" />
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
@@ -49,7 +53,7 @@
 
 <style lang="scss" scoped>
 .left-content {
-  background-color: #4F4D64;
+  background-color: #4f4d64;
 }
 
 .right-content {
