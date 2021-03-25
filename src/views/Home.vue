@@ -3,7 +3,7 @@
     <div class="left-content">
       <h1>Front-end developer</h1>
       <router-link to="/portfolio/one">
-        <button style="border: 1px solid; margin-top: 3em">
+        <button style="border: 1px solid" class="mt-5">
           PORTOFOLIO PROJECT
         </button>
       </router-link>
@@ -21,9 +21,10 @@ export default {
 
 <style scoped>
 .img1 {
-  background: url("../assets/portofolio.svg") no-repeat center;
+  margin-top: 13%;
+  background: url("../assets/project.svg") no-repeat center;
   position: relative;
-  height: 100vh;
+  height: 100%;
   width: 100%;
 }
 </style>

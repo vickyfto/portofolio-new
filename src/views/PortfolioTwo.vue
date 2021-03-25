@@ -2,16 +2,20 @@
   <div class="two main-content">
     <div class="left-content slideUp">
       <router-link to="/portfolio/one">
-        <img src="../assets/arrow-up.svg" class="arrow arrow-up">
+        <img src="../assets/arrow-up.svg" class="arrow arrow-up" />
       </router-link>
 
-      <h1>MOBILE UI</h1>
+      <h1>Vue Quiz</h1>
 
-      <p class="subtxt">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-      <p class="subtxt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, impedit.</p>
+      <p class="subtxt">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+      </p>
+      <p class="subtxt">
+        <a href="">See Project</a>
+      </p>
 
       <router-link to="/portfolio/three">
-        <img src="../assets/arrow-down.svg" class="arrow arrow-down">
+        <img src="../assets/arrow-down.svg" class="arrow arrow-down" />
       </router-link>
     </div>
 
@@ -21,7 +25,7 @@
 
 <script>
 export default {
-  name: "two"
+  name: "two",
 };
 </script>
 
@@ -33,12 +37,14 @@ h1 {
 }
 
 .img2 {
-  background: url("../assets/phone.jpg");
+  background: url("../assets/vue-quiz.png");
   background-size: cover;
   background-position: 50%;
+  margin-top: 5%;
+  height: 110%;
 
   img {
-    width: 50%;
+    width: 100%;
   }
 }
 </style>

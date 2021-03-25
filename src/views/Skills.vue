@@ -1,15 +1,18 @@
 <template>
   <div class="about main-content">
-    <div class="left-content" style="background-color:#4F4D64;">
-      <p class="subtxt" style="color:white;">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit,
-        laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, blanditiis libero optio unde doloribus hic. Voluptate porro eligendi explicabo soluta cumque qui. Odio voluptatum fugiat sint iste, possimus neque. Tempore, excepturi est sequi ipsum culpa quasi velit suscipit temporibus perferendis voluptatem, 
+    <div class="left-content" style="background-color: #4f4d64">
+      <p class="subtxt mt-5" style="color: white">
+        <b>noted</b> : <br />
+        I'm working and learning at night and I keep developing myself to get
+        better at coding. what do I learn? I learn back-end and want to become a
+        full-stack Web Developer
       </p>
-        <router-link style="color:white !important; color:white; margin-top:3em;" to="/portfolio/one">
-          <button class="text-white">
-            PORTOFOLIO PROJECT
-          </button>
-        </router-link>
+      <router-link
+        style="color: white !important; color: white; margin-top: 3em"
+        to="/portfolio/one"
+      >
+        <button class="text-white mt-5">PORTOFOLIO PROJECT</button>
+      </router-link>
     </div>
 
     <div class="right-content">

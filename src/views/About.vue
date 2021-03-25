@@ -1,17 +1,16 @@
 <template>
   <div class="about main-content">
     <div class="left-content">
-      <h1 style="color: white">ABOUT MEEE</h1>
+      <h1 style="color: white">ABOUT ME</h1>
       <p class="subtxt" style="color: white">
-        Tech Enthusiast, Work holic, High curiosity and has great courage to
+        Tech Enthusiast, Workaholic, High curiosity and has great courage to
         try.
       </p>
-      <div style="margin-top: 3em"></div>
       <router-link
         style="color: white !important; color: white"
         to="/portfolio/one"
       >
-        <button class="text-white">PORTOFOLIO PROJECT</button>
+        <button class="text-white mt-5">PORTOFOLIO PROJECT</button>
       </router-link>
     </div>
     <div class="right-content">
@@ -30,11 +29,6 @@
           <li class="list-group-item rmv-border">
             <a href="mailto:vickyfitrio19@gmail.com" target="_blank">
               <img src="../assets/gmail.png" alt="gmail" />
-            </a>
-          </li>
-          <li class="list-group-item rmv-border">
-            <a href="https://msng.link/o/?vickyfto=tg" target="_blank">
-              <img src="../assets/telegram.png" alt="telegram" />
             </a>
           </li>
           <li class="list-group-item rmv-border">
