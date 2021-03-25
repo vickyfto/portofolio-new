@@ -35,22 +35,22 @@ export default new Router({
       component: Experience
     },
     {
-      path: "portofolio-new//portfolio/one",
+      path: "/portfolio/one",
       name: "one",
       component: One
     },
     {
-      path: "/portofolio-new/portfolio/two",
+      path: "/portfolio/two",
       name: "two",
       component: Two
     },
     {
-      path: "/portofolio-new/portfolio/three",
+      path: "/portfolio/three",
       name: "three",
       component: Three
     },
     {
-      path: "/portofolio-new/portfolio/four",
+      path: "/portfolio/four",
       name: "four",
       component: Four
     }
