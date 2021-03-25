@@ -3,7 +3,7 @@
     <div class="container">
       <div class="inner">
         <nav>
-          <router-link to="/" id="logo">Vicky Fitrio</router-link>
+          <router-link to="/portofolio-new" id="logo">Vicky Fitrio</router-link>
 
           <ul>
             <li>
