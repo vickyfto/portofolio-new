@@ -145,6 +145,7 @@
                 <li>
                   Contribute and discuss with Back-end about data for front-end
                 </li>
+                <li>build e-commerce using vue js</li>
               </ul>
             </div>
           </div>
